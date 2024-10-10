@@ -42,8 +42,9 @@ body{
     border-right: none;
     border-bottom-color: #095086;
     margin-left: 10px;
-    /* margin-right: 10px; */
     width: 200px;
+    padding-bottom: 3px;
+    outline: none;
 }
 
 #weight-input-div label, #height-input-div label{
