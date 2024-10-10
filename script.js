@@ -3,8 +3,16 @@ document.getElementById('cal_btn').addEventListener('click', function(){
     var height_feet = document.getElementById('height-input').value;
     var height = height_feet * 0.3048;
     var bmi = (weight / (height * height)).toFixed(2)
-    document.getElementById('result').textContent = bmi;
+    var result = document.getElementById('result')
+    result.textContent = bmi;
     var message = document.getElementById('message')
+
+    if(weight == '' && height == '') {
+        alert('Please enter a valid values ...')
+        result.textContent = ''
+        message.textContent = ''
+        return;
+    }
 
     switch(true){
         case bmi < 18.5:
