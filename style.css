@@ -64,3 +64,34 @@ body{
     padding: 3px 13px;
     margin-left: 35px;
 }
+
+#buttons-div{
+    width: 100%;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    gap: 15px;
+    display: flex;
+    justify-content: center;
+}
+#buttons-div button{
+    padding: 5px 20px;
+    width: 50%;
+    background-color: #095086;
+    color: #ffffff;
+    font-weight: 600;
+    border: none;
+    outline: none;
+    cursor: pointer;
+}
+
+#buttons-div button:hover{
+    background-color: #408BC9;
+}
+
+#result-div p{
+    font-weight: 600;
+}
+
+#result-div p span{
+    color: #095086;
+}
