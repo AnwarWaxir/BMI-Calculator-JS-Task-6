@@ -50,4 +50,6 @@ document.getElementById('reset_btn').addEventListener('click', function(){  // T
     var height = document.getElementById('height-input');
     height.value = ''
     weight.value = ''
+    result.textContent = ''
+    message.textContent = ''
 })
